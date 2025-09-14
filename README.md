@@ -11,7 +11,7 @@ tfm_modelosLLM/
 │   ├── estadisticas_docker_model_so_anfitrion.ps1
 │   ├── stats.sh
 │   ├── stats_cortex.sh
-|   └── README.md (Contiene los recursos necesarios para ejecutar los modelos en los distintos S.O así como los comandos de ejecución de los ficheros)
+|   └── README.md (📘 Documento que contiene los recursos necesarios para ejecutar los modelos en los distintos S.O así como los comandos de ejecución de los ficheros)
 │
 ├── prompt_1/
 │   ├── informes/
@@ -35,7 +35,7 @@ tfm_modelosLLM/
 │   │   └── UBUNTU_qwen3-8B-Q4_K_M_prompt2.docx
 │   └── PROMPT_2.docx
 │
-└── README.md
+└── README.md (📘 Documento principal que describe la estructura del repositorio y contenido del mismo.)
 ```
 
 ## 🔍 Descripción del contenido del repositorio
@@ -54,6 +54,6 @@ tfm_modelosLLM/
 **prompt_2/**                                       | 💡 En esta carpeta encontramos el prompt base nº2 y resultados asociados.
 **PROMPT_2.docx**                               | 📄 Documento con el texto del prompt 2.
 **informes/**                                   | 📑 Informes generados por distintos modelos aplicados al prompt 2.
-**README.md**                                       | 📘 Documento principal que describe el proyecto.
+
 
 
