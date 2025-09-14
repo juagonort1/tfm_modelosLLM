@@ -10,7 +10,8 @@ tfm_modelosLLM/
 │   ├── estadisticas_docker_desktop.ps1
 │   ├── estadisticas_docker_model_so_anfitrion.ps1
 │   ├── stats.sh
-│   └── stats_cortex.sh
+│   ├── stats_cortex.sh
+|   └── README.md (Contiene los recursos necesarios para ejecutar los modelos en los distintos S.O así como los comandos de ejecución de los ficheros)
 │
 ├── prompt_1/
 │   ├── informes/
