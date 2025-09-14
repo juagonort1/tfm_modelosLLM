@@ -4,7 +4,7 @@ Este repositorio contiene los prompts usados, scripts de monitorización, e info
 
 ## 📂 Estructura del repositorio
 A continuación se presenta la estructura del repositorio tfm_modelosLLM
-
+```text
 tfm_modelosLLM/
 ├── ficheros_estadisticas/
 │   ├── estadisticas_docker_desktop.ps1
