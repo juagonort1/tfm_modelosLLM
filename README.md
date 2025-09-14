@@ -42,8 +42,9 @@ tfm_modelosLLM/
 
 | 📂 Carpeta / Archivo                             | 📝 Descripción                                                                                 |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| **ficheros\_estadisticas/**                      | 📊 Scripts para monitorizar uso de recursos y obtener así las estadísticas                      |
-| ├── `estadisticas_docker_desktop.ps1`            | Mide temperatura CPU, temperatura GPU, uso CPU, uso GPU, memoria RAM usada y memoria GPU usada. |                         
+| **ficheros\_estadisticas/**                      | En esta carpeta encontramos los scripts usados para monitorizar el uso de recursos y obtener así las estadísticas                      |
+| `estadisticas_docker_desktop.ps1`            | Mide temperatura CPU, temperatura GPU, uso CPU, uso GPU, memoria RAM usada y memoria GPU usada de los modelos desplegados haciendo uso de docker desktop todo esto en el SO anfitrión ya que . |                         
+
 | ├── `estadisticas_docker_model_so_anfitrion.ps1` | Mide temperatura CPU, temperatura GPU, uso GPU y memoria GPU usada.                             |
 | ├── `stats.sh`                                   | Mide uso de CPU y memoria de un contenedor Docker.                                              |
 | └── `stats_cortex.sh`                            | Mide uso total de CPU del sistema Linux.                                                        |
