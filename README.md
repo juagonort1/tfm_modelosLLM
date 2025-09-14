@@ -35,6 +35,23 @@ tfm_modelosLLM/
 │   └── PROMPT_2.docx
 │
 └── README.md
+```
 
 ## 🔍 Descripción de carpetas
+
+
+| 📂 Carpeta / Archivo                             | 📝 Descripción                                                                                 |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| **ficheros\_estadisticas/**                      | 📊 Scripts para monitorizar uso de recursos y obtener así las estadísticas                      |
+| ├── `estadisticas_docker_desktop.ps1`            | Mide temperatura CPU, temperatura GPU, uso CPU, uso GPU, memoria RAM usada y memoria GPU usada. |                         
+| ├── `estadisticas_docker_model_so_anfitrion.ps1` | Mide temperatura CPU, temperatura GPU, uso GPU y memoria GPU usada.                             |
+| ├── `stats.sh`                                   | Mide uso de CPU y memoria de un contenedor Docker.                                              |
+| └── `stats_cortex.sh`                            | Mide uso total de CPU del sistema Linux.                                                        |
+| **prompt\_1/**                                   | 💡 Prompt base nº1 y resultados asociados.                                                      |
+| ├── `PROMPT_1.docx`                              | 📄 Documento con el texto del prompt 1.                                                         |
+| └── **informes/**                                | 📑 Informes generados por distintos modelos                                                     |
+| **prompt\_2/**                                   | 💡 Prompt base nº2 y resultados asociados.                                                      |
+| ├── `PROMPT_2.docx`                              | 📄 Documento con el texto del prompt 2.                                                         |
+| └── **informes/**                                | 📑 Informes generados por distintos modelos aplicados al prompt 2.                              |
+| **README.md**                                    | 📘 Documento principal que describe el proyecto.                                                |
 
