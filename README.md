@@ -37,22 +37,22 @@ tfm_modelosLLM/
 └── README.md
 ```
 
-## 🔍 Descripción de carpetas
+## 🔍 Descripción del contenido del repositorio
 
 
-| 📂 Carpeta / Archivo                             | 📝 Descripción                                                                                 |
-| ------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| **ficheros\_estadisticas/**                      | En esta carpeta encontramos los scripts usados para monitorizar el uso de recursos y obtener así las estadísticas                      |
-| `estadisticas_docker_desktop.ps1`                | Mide temperatura CPU, temperatura GPU, uso CPU, uso GPU, memoria RAM usada y memoria GPU usada de los modelos desplegados haciendo uso de docker desktop todo | |                                                  |  esto en el SO anfitrión.                                                                       |                         
-|                                                  |
-| ├── `estadisticas_docker_model_so_anfitrion.ps1` | Mide temperatura CPU, temperatura GPU, uso GPU y memoria GPU usada.                             |
-| ├── `stats.sh`                                   | Mide uso de CPU y memoria de un contenedor Docker.                                              |
-| └── `stats_cortex.sh`                            | Mide uso total de CPU del sistema Linux.                                                        |
-| **prompt\_1/**                                   | 💡 Prompt base nº1 y resultados asociados.                                                      |
-| ├── `PROMPT_1.docx`                              | 📄 Documento con el texto del prompt 1.                                                         |
-| └── **informes/**                                | 📑 Informes generados por distintos modelos                                                     |
-| **prompt\_2/**                                   | 💡 Prompt base nº2 y resultados asociados.                                                      |
-| ├── `PROMPT_2.docx`                              | 📄 Documento con el texto del prompt 2.                                                         |
-| └── **informes/**                                | 📑 Informes generados por distintos modelos aplicados al prompt 2.                              |
-| **README.md**                                    | 📘 Documento principal que describe el proyecto.                                                |
+📂 Carpeta / Archivo | 📝 Descripción
+---|---
+**ficheros_estadisticas/** | En esta carpeta encontramos los scripts usados para monitorizar el uso de recursos y obtener estadísticas.
+├── **estadisticas_docker_desktop.ps1** | Mide temperatura CPU, temperatura GPU, uso CPU, uso GPU, memoria RAM usada y memoria GPU. Usaremos este script para los modelos desplegados con Docker Desktop.
+├── **estadisticas_docker_model_so_anfitrion.ps1** | Mide temperatura CPU, temperatura GPU, uso GPU y memoria GPU usada. Usaremos este script para los modelos desplegados con Docker Model.
+├── **stats.sh** | Mide uso de CPU de un contenedor Docker. Usaremos este script para los modelos desplegados con Docker Model.
+└── **stats_cortex.sh** | Mide uso total de CPU del sistema Linux. Usaremos este script para los modelos desplegados con Cortex.
+**prompt_1/** | 💡 En esta carpeta encontramos el prompt base nº1 y resultados asociados.
+├── **PROMPT_1.docx** | 📄 Documento con el texto del prompt 1.
+└── **informes/** | 📑 Informes generados por distintos modelos aplicados al prompt 1.
+**prompt_2/** | 💡 En esta carpeta encontramos el prompt base nº2 y resultados asociados.
+├── **PROMPT_2.docx** | 📄 Documento con el texto del prompt 2.
+└── **informes/** | 📑 Informes generados por distintos modelos aplicados al prompt 2.
+**README.md** | 📘 Documento principal que describe el proyecto.
+
 
